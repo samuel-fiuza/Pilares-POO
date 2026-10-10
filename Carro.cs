@@ -14,11 +14,11 @@ namespace Pilares_POO
         //Tem o mesmo nome da classe
         public Carro(string marca, string modelo)
         {
-            Marca = marca;
-
-            Modelo = modelo;
+            //Receba uma marca e um modelo
+            //this. serve para o código saber quem é class e quem é função
+            this.Marca = marca;
+            
+            this.Modelo = modelo;
         }
-
-
     }
 }
